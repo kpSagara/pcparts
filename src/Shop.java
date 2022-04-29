@@ -49,7 +49,7 @@ public class Shop implements Addtocart{
         cart.addCart(c2, 2);
         cart.addCart(c3, 1);
         cart.addCart(c4, 1);
-        cart.addCart(list.get(5),2);
+        cart.addCart(list.get(5),1);
 
         List<Cart> list2 = cart.getCart();
         list2.forEach(Cart->Cart.cashOut());
